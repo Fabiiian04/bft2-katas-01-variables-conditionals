@@ -77,6 +77,7 @@ describe("Ejemplos de funciones", () => {
     it("Función que nos dice si un número es par (even) o impar (odd)", () => {
         expect(evenOrOdd(2)).to.equal("even")
         expect(evenOrOdd(13)).to.equal("odd")
+        
     })
 
     it ("Función que nos devuelve un saludo para cada nombre", () => {
